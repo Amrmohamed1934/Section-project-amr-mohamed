@@ -1,0 +1,78 @@
+body{
+    background-image: url(/image/bb.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    margin: 0% 5% 0% 5%;
+}
+/* start nav logo */
+header .logo{
+    width: 25%;
+    height:inherit;
+    overflow: hidden;
+    float: left;
+}
+
+header .logo h1 {
+    color: rgba(0, 0, 0, 0.71);
+    padding-left: 10px; 
+    padding-top: 3px;
+}
+header .logo h1 span{
+    color: rgba(255, 78, 0, 0.83);  
+}
+
+/* start list nav bar */
+header .nav-bar{
+    width: 75%;
+    overflow: hidden;
+    float: right;
+    font-size: 1.1em;
+    padding-top:10px; 
+}
+header .nav-bar ul{
+    float: right;
+    padding-right: 10px;
+}
+header .nav-bar ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+header .nav-bar ul li a{
+    color: #666;
+}
+header .nav-bar ul,
+header .nav-bar ul li a{
+    text-decoration: none;
+}
+header .nav-bar ul a,
+header .nav-bar ul li a:hover{
+    color: #00a800;
+} 
+/* content */
+.content{
+    width: 100%;
+    margin-top: 20px;
+}
+.content .title{
+    width: 100%;
+    text-align: center;
+    margin:10px 0 40px 0;
+}
+.title h1{
+    color: #ff0000bd;
+    margin: 5% 0 5% 0;
+}
+.title p{
+    font-size: 24px;
+}
